@@ -1,4 +1,9 @@
 public class AlphabetTriangle {
+//A
+//AB
+//ABC
+//ABCD
+//ABCDE
     public static void main(String[] args) {
 
         int n = 5;
