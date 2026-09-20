@@ -1,4 +1,9 @@
 public class Triangle0_1 {
+// 1
+// 01
+// 101
+// 0101
+// 10101
     public static void main(String[] args) {
         int n=5;
         int start=1;
