@@ -14,10 +14,12 @@ public class DoubleSidedNumberTriangle {
             {
                 System.out.print(j);
             }
+            //space
             for(int j=1; j<=space; j++)
             {
                 System.out.print(" ");
             }
+            //number
             for(int j=i; j>= 1; j--)
             {
                 System.out.print(j);
