@@ -4,6 +4,8 @@ public class ValidPalindrom {
     public static void main(String[] args) {
         String word="A man, a plan, a canal: Panama";
         word=word.toLowerCase().replaceAll("[^A-Za-z0-9]","");
+          // '^'Negation Convert all Numeric to null
+
         int i=0;
         int j=word.length()-1;
         while(i<=j)
