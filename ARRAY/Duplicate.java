@@ -2,8 +2,10 @@ package ARRAY;
 
 import java.util.HashSet;
 
-public class Duplicate {
-    public static void main(String[] args) {
+public class Duplicate
+{
+    public static void main(String[] args)
+    {
         int[] arr={2,3,2,12,12,8,9,9,1,0};
         //Using Brute Force Code
         Duplicate02(arr);
@@ -25,13 +27,18 @@ public class Duplicate {
     public static void Duplicate02(int[] nums)
     {
         HashSet<Integer> set=new HashSet<>();
+        HashSet<Integer> duplicate=new HashSet<>();
 
-        for (int i=0;i<nums.length;i++)
+        for (int num: nums)
         {
-            if( !set.add(nums[i]))
+            if( !set.add(num))
             {
-                System.out.print(nums[i]+" \n");
+                duplicate.add(num);
             }
+        }
+        for(int dup:duplicate)
+        {
+            System.out.println(dup+" ");
         }
 
     }
