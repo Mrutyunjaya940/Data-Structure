@@ -11,7 +11,7 @@ public class CountFrequency {
             char str=Character.toLowerCase(word.charAt(i));
             if(str ==character)
             {
-                count++;
+                count++
             }
         }
         System.out.println(count);
